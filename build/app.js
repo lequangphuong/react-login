@@ -1,0 +1,1 @@
+console.error("Error: Parsing file /Users/m/Documents/workspace/Reactjs/react-login/src/components/LoginPage.js: Unexpected token (9:6)");
