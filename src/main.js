@@ -3,6 +3,14 @@ var ReactDOM = require('react-dom');
 
 var LoginPage = require('./components/LoginPage');
 
+var HomePage = React.createClass({
+  render: function() {
+    return (
+      <div />
+    );
+  }
+})
+
 ReactDOM.render((
-  React.createClass
-), document.getElementById('main'))
+  <LoginPage />
+), document.getElementById('content'))

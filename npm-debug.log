@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build-js' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
+4 verbose run-script [ 'prebuild-js', 'build-js', 'postbuild-js' ]
+5 info lifecycle react-login@1.0.0~prebuild-js: react-login@1.0.0
+6 silly lifecycle react-login@1.0.0~prebuild-js: no script for prebuild-js, continuing
+7 info lifecycle react-login@1.0.0~build-js: react-login@1.0.0
+8 verbose lifecycle react-login@1.0.0~build-js: unsafe-perm in lifecycle true
+9 verbose lifecycle react-login@1.0.0~build-js: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/m/Documents/workspace/Reactjs/react-login/node_modules/.bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle react-login@1.0.0~build-js: CWD: /Users/m/Documents/workspace/Reactjs/react-login
+11 silly lifecycle react-login@1.0.0~build-js: Args: [ '-c',
+11 silly lifecycle   'browserify -t reactify/undoubted src/main.js > build/app.js' ]
+12 silly lifecycle react-login@1.0.0~build-js: Returned: code: 1  signal: null
+13 info lifecycle react-login@1.0.0~build-js: Failed to exec build-js script
+14 verbose stack Error: react-login@1.0.0 build-js: `browserify -t reactify/undoubted src/main.js > build/app.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at EventEmitter.emit (events.js:185:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at ChildProcess.emit (events.js:185:7)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid react-login@1.0.0
+16 verbose cwd /Users/m/Documents/workspace/Reactjs/react-login
+17 error Darwin 15.4.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build-js"
+19 error node v5.8.0
+20 error npm  v3.7.3
+21 error code ELIFECYCLE
+22 error react-login@1.0.0 build-js: `browserify -t reactify/undoubted src/main.js > build/app.js`
+22 error Exit status 1
+23 error Failed at the react-login@1.0.0 build-js script 'browserify -t reactify/undoubted src/main.js > build/app.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the react-login package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     browserify -t reactify/undoubted src/main.js > build/app.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs react-login
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls react-login
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
