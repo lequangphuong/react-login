@@ -1,0 +1,23 @@
+{
+  "name": "react-login",
+  "version": "1.0.0",
+  "description": "React Login Example",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lequangphuong/react-login.git"
+  },
+  "keywords": [
+    "react",
+    "login"
+  ],
+  "author": "lequangphuong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lequangphuong/react-login/issues"
+  },
+  "homepage": "https://github.com/lequangphuong/react-login#readme"
+}
